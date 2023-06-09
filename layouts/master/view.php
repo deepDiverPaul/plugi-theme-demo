@@ -1,6 +1,6 @@
 <?php
 
-use PHPageBuilder\Repositories\MenuRepository;
+use Plugi\Repositories\MenuRepository;
 
 ?>
 <!doctype html>
@@ -95,7 +95,7 @@ use PHPageBuilder\Repositories\MenuRepository;
 
 <script src="<?= phpb_theme_asset('dist/phpb-demo-template.js') ?>"></script>
 
-<!-- Run PHPageBuilder script.js files -->
+<!-- Run Plugi script.js files -->
 <script type="text/javascript">
     document.querySelectorAll("script").forEach(function(scriptTag) {
         scriptTag.dispatchEvent(new Event('run-script'));
